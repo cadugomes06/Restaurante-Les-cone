@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css"  href="css/styles.css" />
+    <title>Restaurante com sass</title>
+</head>
+<body>
+  <main class="container intro">
+        <div class="grid-5">
+            <img class="logo" src="img/lescone.png" />
+            <div class="intro-info">
+                <p>De Seg. à Sab.<span class="aberto"></span></br>
+                    das 07:00 às 18:00
+                </p>
+                <p>Rua central das palmeiras, 500</br> Macaé </p>
+            </div>
+            <p class="intro-telefone">(22) 99999-55555</p>
+        </div>
+        <div class="grid-7">
+            <img src="img/foto.png" class="intro-foto" alt="foto-restaurante" />
+        </div>
+  </main>
+
+  <section class="container menu">
+    <h1 class="grid-4 titulo">Menu</h1>
+    <div class="grid-7 offset-1">
+        <div class="menu-item ">
+            <img src="img/prato-1.png" alt="foto prato 1" />
+            <h2>Entradas</h2>
+            <ul>
+                <li><span>R$1,80</span> Ovos Mexdidos</li>
+                <li><span>R$2,50</span> Scones de fruta</li>
+                <li><span>R$3,20</span> Joelho de queijo</li>
+                <li><span>R$2,00</span> Presunto cozido</li>
+                <li><span>R$5,00</span> Coxinha de frango</li>
+            </ul>
+        </div>
+
+        <div class="menu-item">
+            <img src="img/prato-2.png" alt="foto prato 2" />
+            <h2>Pratos principais</h2>
+            <ul>
+                <li><span>R$12,80</span> Penne com queijo</li>
+                <li><span>R$20,50</span> Feijoada</li>
+                <li><span>R$30,20</span> Costela ao molho</li>
+                <li><span>R$12,00</span> Medalhão de frango</li>
+                <li><span>R$23,00</span> Le stonehouse</li>
+            </ul>
+        </div>
+    </div>
+  </section>
+
+  <section class="container contato">
+    <h1 class="grid-4 titulo">Contato</h1>
+    <div class="grid-7 offset-1">
+        <form>
+            <label>Nome</label>
+            <input type="text" />
+            <div class="row">
+                <div class="grid-7">
+                    <label>E-mail</label>
+                    <input type="text" />
+                </div>
+                <div class="grid-5">
+                    <label>Telefone</label>
+                    <input type="text" />
+                </div>
+            </div>
+            <label>Mensagem</label>
+            <textarea></textarea>
+            <input class="button" type="button" value="enviar" />
+        </form>
+    </div>
+
+        <div class="contato-info">
+            <p>contato@lescone.com ////</p>
+            <p>(22) 99999-5555 ////</p>
+
+        </div>
+
+        <a class="contato-mapa grid-5" href="#">
+        <img src="img/map.png" alt="Como chegar na lescone" />
+        </a>
+
+    </div>
+
+  </section>
+
+  <footer>
+    <div class="container">
+        <p>Le Scone &copy; 1989 - 2022. Alguns direitos reservados</p>
+        <a href="htpps://www.portfolio-cadu.netlify.app" target="_blank"></a>
+        <img src="img/lescone-icone.png" alt="les Scone icone"/>
+    </div>
+  </footer>
+</body>
+</html>
